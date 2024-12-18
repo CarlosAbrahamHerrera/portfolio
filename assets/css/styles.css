@@ -48,7 +48,7 @@ header h1 {
   color: var(--tertiary);
   background-color: var(--secondary);
   padding: 5px 10px;
-  margin: 0;
+  margin: 5px 0px 5px 0px;
   font-size: 4vw;
   line-height: 1;
 }
@@ -102,12 +102,12 @@ main {
 
 .hero-banner {
   background: url("https://cdn.pixabay.com/photo/2017/12/28/15/06/geometric-3045402_1280.png") center/cover no-repeat;
-  min-height: 30vh;
+  max-height: 30vh;
   width: 100%;
   color: var(--light);
   padding: 6% 0% 1% 0%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
 }
@@ -122,7 +122,7 @@ main {
   background-color: var(--secondary);
   color: var(--tertiary);
   margin: 0;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 5px;
   font-size: 24px;
   line-height: 1.2;
   display: inline;
@@ -147,7 +147,7 @@ main {
 
 .page-section > h2 {
   flex: 0 0 20%;
-  text-align: left;
+  text-align: right;
   padding-right: 15px;
   border-right: 4px solid var(--primary);
   font-size: 2.5rem;
@@ -176,7 +176,14 @@ main {
   background-color: var(--secondary);
   padding: 5px 5px 5px 5px;
   font-size: 20px;
+
 }
+
+.flex-item span p {
+  padding: 0px 0 0px 0;
+  font-weight: lighter;
+}
+
 
 .flex-item {
   border: 5px solid var(--secondary);
@@ -251,26 +258,26 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-  background: url(https://media.istockphoto.com/id/2153823097/photo/cheerful-athletic-couple-jogging-through-the-park.jpg?s=1024x1024&w=is&k=20&c=UF2qKPawKinDKsVYhPHSDCdmUjAtJ6SJOjAL6kBkb0Y=);
+  background: url(https://media.istockphoto.com/id/2153823097/photo/cheerful-athletic-couple-jogging-through-the-park.jpg?s=1024x1024&w=is&k=20&c=UF2qKPawKinDKsVYhPHSDCdmUjAtJ6SJOjAL6kBkb0Y=)center/cover no-repeat;
 }
 
 .led-wall {
-  background: url(https://cdn.pixabay.com/photo/2015/04/22/09/32/led-734433_1280.jpg);
+  background: url(https://cdn.pixabay.com/photo/2015/04/22/09/32/led-734433_1280.jpg) center/cover no-repeat;
   
 }
 
 .react-calc {
-  background: url(https://cdn.pixabay.com/photo/2016/02/05/11/17/calculator-1180740_1280.jpg);
+  background: url(https://cdn.pixabay.com/photo/2016/02/05/11/17/calculator-1180740_1280.jpg) center/cover no-repeat;
   
 }
 
 .pastel-puzzles {
-  background: url(https://cdn.pixabay.com/photo/2015/03/01/16/53/puzzle-654962_1280.jpg);
+  background: url(https://cdn.pixabay.com/photo/2015/03/01/16/53/puzzle-654962_1280.jpg) center/cover no-repeat;
   
 }
 
 .surf-report { 
-  background: url(https://cdn.pixabay.com/photo/2019/04/22/04/32/blue-4145659_1280.jpg);
+  background: url(https://cdn.pixabay.com/photo/2019/04/22/04/32/blue-4145659_1280.jpg) center/cover no-repeat;
 }
 
 .footer {
